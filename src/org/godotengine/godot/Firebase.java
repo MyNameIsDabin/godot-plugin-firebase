@@ -114,7 +114,7 @@ public class Firebase extends Godot.SingletonBase {
         AlertDialog.Builder bld;
 
         bld = new AlertDialog.Builder(activity, AlertDialog.THEME_HOLO_LIGHT);
-        bld.setIcon(com.godot.game.R.drawable.icon);
+        bld.setIcon(com.godot.game.R.mipmap.icon);
         bld.setTitle(title);
         bld.setMessage(message);
         bld.setNeutralButton("OK", null);
